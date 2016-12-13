@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: "Helvetica", "Arial", "sans-serif";
+    line-height: 1.5;
+    background-color: #fff;
+    padding-top: 5.5rem;
+    padding-bottom: 3rem;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    color: #fff;
+    background-color: #444;
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.iconic-reload {
+    float: right;
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.dates {
+    background-color: #333;
+    height: 250px;
+    position: relative;
+    padding-top: 1px;
+}
+
+.games {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.games:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+.content {
+    display: none;
+    z-index: 0;
+}
+
+.standings {
+    display: none;
+    z-index: 0;
+}
+
+.buttons {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 10;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    background-color: #444;
+}
+
+.gamesB {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 14px;
+    height: 100%;
+    z-index: 11;
+    border-right: 2px solid #fff;
+}
+
+.standingsB {
+    width: 50%;
+    display: inline-block;
+    padding-top: 14px;
+    height: 100%;
+    z-index: 11;
+}
+
+h2,
+p {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.games p {
+    color: #333;
+}
+
+footer {
+    background: #333;
+    height: 60px;
+    padding-top: 5px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    width: 20%;
+    color: #333;
+}
+
+td:first-child {
+    width: 40%;
+    vertical-align: middle;
+}
+
+.active {
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+    height: auto;
+    width: 80px;
+}
+
+.games div:nth-child(odd) {
+    float: left;
+}
+
+.games div:nth-child(even) {
+    float: right;
+}
+
+.teamName div {
+    float: left;
+}
+
+.gryff {
+    background-image: url(../res/android/gryffindor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+.slyth {
+    background-image: url(../res/android/slytherin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+.huff {
+    background-image: url(../res/android/hufflepuff.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+.rave {
+    background-image: url(../res/android/ravenclaw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+}
+
+.teami {
+    display: none;
+}
