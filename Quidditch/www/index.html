@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://griffis.edumedia.ca 'unsafe-eval'; connect-src https://griffis.edumedia.ca;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="width=device-width">
+    
     <link rel="stylesheet" href="css/iconic-bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Quidditch</title>
@@ -64,6 +68,7 @@
         <p>&copy;
             <time datetime="2016">2016</time> Julien Tougas</p>
     </footer>
+    <script type="text/javascript" src="cordova.js"></script>
     <script src="js/main.js"></script>
 </body>
 
